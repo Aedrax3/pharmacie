@@ -1,0 +1,23 @@
+<div class="titre">
+    <h1> Nouveau Client</h1>
+</div>
+    <form action="./?action=add" method="POST">
+      
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required><br>
+      
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required><br>
+      
+      <label for="securite">Securité social  :</label>
+      <input type="text" id="securite" name="securite" minlength="13" maxlength="13" required><br>
+
+      <label for="mutuelle">Mutuelle :</label>
+      <input type="text" id="mutuelle" name="mutuelle" required><br>
+      
+      <label for="date_naissance">Date de naissance :</label>
+      <input type="date" id="date_naissance" name="date_naissance" required><br>
+
+
+      <input type="submit" name="submit" value="Envoyer">
+    </form>
